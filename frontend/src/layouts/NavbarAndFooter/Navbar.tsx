@@ -1,5 +1,5 @@
 import "../../styles/navbar.css";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";
 
 export const Navbar = () => {
@@ -14,7 +14,7 @@ export const Navbar = () => {
       <div className="section-container">
         <nav className="d-flex align-items-center navbar navbar-expand-lg d-flex justify-content-between align-items-center row col-12 p-0 m-0">
           <a
-            className="nav-brand col-2 justify-content-start align-items-center p-0"
+            className="nav-brand nav-logo col-2 justify-content-start align-items-center p-0"
             href="#"
           >
             <h4>SP Gallery</h4>
@@ -70,9 +70,9 @@ export const Navbar = () => {
             >
               <span>
                 {isDropdownOpen ? (
-                  <AiOutlineClose className="nav-sidebar-icon nav-icon p-1" />
+                  <GiHamburgerMenu className="nav-sidebar-icon nav-icon p-1" />
                 ) : (
-                  <AiOutlineMenu className="nav-sidebar-icon nav-icon p-1" />
+                  <GiHamburgerMenu className="nav-sidebar-icon nav-icon p-1" />
                 )}
               </span>
             </button>
