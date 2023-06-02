@@ -1,0 +1,12 @@
+.elevated-msg-section {
+  background-color: rgb(214, 232, 219);
+}
+
+.elevated-msg-section h2 {
+  margin-bottom: 10px;
+}
+
+.elevated-msg-section h5 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
