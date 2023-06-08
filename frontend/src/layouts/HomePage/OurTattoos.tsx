@@ -1,5 +1,5 @@
 import "../../styles/our-tattoos.css";
-import tattooImg from "../../images/tattoo-img/tattoo-img.jpg";
+import { ReturnTattoo } from "./ReturnTattoo";
 
 export const OurTattoos = () => {
   return (
@@ -9,30 +9,9 @@ export const OurTattoos = () => {
           Our Tattoos
         </h3>
         <div className="col-12 row m-0 p-0 d-flex">
-          <div className="hot-item col-md-4">
-            <img
-              src={tattooImg}
-              alt="tattoo sample"
-              className="w-100 hot-img"
-            />
-            <button className="hot-btn">Desc.</button>
-          </div>
-          <div className="hot-item col-md-4">
-            <img
-              src={tattooImg}
-              alt="tattoo sample"
-              className="w-100 hot-img"
-            />
-            <button className="hot-btn">Desc.</button>
-          </div>
-          <div className="hot-item col-md-4">
-            <img
-              src={tattooImg}
-              alt="tattoo sample"
-              className="w-100 hot-img"
-            />
-            <button className="hot-btn">Desc.</button>
-          </div>
+          <ReturnTattoo />
+          <ReturnTattoo />
+          <ReturnTattoo />
         </div>
       </div>
     </div>
