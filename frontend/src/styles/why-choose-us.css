@@ -1,0 +1,35 @@
+.why-us-section {
+  padding: 48px 0px;
+  text-align: center; /* This will center the text inside the why-us-section */
+}
+
+.why-us-card {
+  padding: 2rem 2rem;
+}
+
+.why-us-card p {
+  font-weight: lighter;
+  color: rgb(49, 49, 49);
+}
+
+.section-title {
+  color: black;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0%;
+  border-bottom: 2px solid black;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-title:hover::after {
+  width: 100%;
+}

@@ -24,7 +24,6 @@ nav {
 }
 
 .nav-link:hover {
-  /* background-color: var(--secondary-theme-color); */
   color: var(--theme-color) !important;
 }
 
@@ -109,7 +108,6 @@ nav {
     background-color: var(--primary-background);
     top: 0;
     left: -13%;
-    /* width: 75vw!important; */
     width: 200px !important;
     height: 100vh !important;
     padding: 20px;
@@ -127,7 +125,6 @@ nav {
 
   .nav-link {
     color: rgb(0, 0, 0) !important;
-    /* color: white; */
     text-decoration: none;
     transition: 0.1s;
   }
