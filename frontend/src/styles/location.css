@@ -1,0 +1,19 @@
+.location-section {
+  background-color: black;
+}
+
+.location-section h2,
+.location-section p,
+.location-section span {
+  color: white;
+}
+
+.location-section h2 {
+  font-size: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .location-info {
+    padding-top: 48px;
+  }
+}
