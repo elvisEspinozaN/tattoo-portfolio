@@ -6,6 +6,7 @@ import { Hero } from "./layouts/HomePage/Hero";
 import { Location } from "./layouts/HomePage/Location";
 import { OurTattoos } from "./layouts/HomePage/OurTattoos";
 import { WhyChooseUs } from "./layouts/HomePage/WhyChooseUs";
+import { Footer } from "./layouts/NavbarAndFooter/Footer";
 import { Navbar } from "./layouts/NavbarAndFooter/Navbar";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <WhyChooseUs />
       <Location />
       <ContactUs />
+      <Footer />
     </div>
   );
 }
