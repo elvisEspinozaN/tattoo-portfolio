@@ -1,0 +1,44 @@
+.contact-section {
+  background-color: black;
+}
+
+.picture {
+  max-height: 550px;
+  object-fit: cover;
+}
+.contact-section p,
+.contact-section h2,
+.contact-section h4,
+.contact-section button {
+  color: white;
+  text-transform: uppercase;
+}
+
+.contact-section p {
+  max-width: 350px;
+}
+
+.contact-icon {
+  width: 40px;
+  margin: 1rem 0;
+}
+.contact-btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.contact-btn img {
+  max-width: 25px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-content {
+    padding-top: 48px;
+    order: 1;
+  }
+}
